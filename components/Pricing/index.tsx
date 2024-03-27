@@ -43,9 +43,9 @@ const Pricing = () => {
                 </span>
               </h3>
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-              Bypass Months of Development, Launch in Days
+              Highlight Time Saved
               </h4>
-              {/* <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p> */}
+              <p>Bypass Months of Development, Launch in Days.</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
@@ -90,7 +90,7 @@ const Pricing = () => {
             </div>
 
             {/* <!-- Pricing Item --> */}
-            <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
+            {/* <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
                 popular
               </div>
@@ -142,7 +142,7 @@ const Pricing = () => {
                   />
                 </svg>
               </button>
-            </div>
+            </div> */}
 
             {/* <!-- Pricing Item --> */}
             {/* <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
