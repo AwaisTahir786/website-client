@@ -59,24 +59,24 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_right md:w-1/2"
             >
-              <span className="font-medium uppercase text-black dark:text-white">
+              {/* <span className="font-medium uppercase text-black dark:text-white">
                 <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
                   New
                 </span>{" "}
                 SaaS Boilerplate for Next.js
-              </span>
+              </span> */}
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                A Complete Solution for
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
+              The Essential Toolkit for Productized Services
+                {/* <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
                   SaaS Startup
-                </span>
+                </span> */}
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+              The Productize Fast Boilerplate eliminates the time-consuming development of payment systems, and client workflow – giving you everything you need to start selling your expertise as a scalable service.
+
               </p>
 
-              <div className="mt-7.5 flex items-center gap-5">
+              {/* <div className="mt-7.5 flex items-center gap-5">
                 <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                   <p className="text-metatitle2 font-semibold text-black dark:text-white">
                     01
@@ -101,7 +101,8 @@ const About = () => {
                   </h3>
                   <p>consectetur adipiscing elit fermentum ultricies.</p>
                 </div>
-              </div>
+              </div> */}
+
             </motion.div>
           </div>
         </div>
@@ -130,19 +131,76 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_left md:w-1/2"
             >
-              <h4 className="font-medium uppercase text-black dark:text-white">
+              {/* <h4 className="font-medium uppercase text-black dark:text-white">
                 Launch Your SaaS Fast
-              </h4>
+              </h4> */}
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Packed with All Essential {"   "}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
+              Why Choose the Productize Fast Boilerplate?
+{"   "}
+                {/* <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
                   Integrations
-                </span>
+                </span> */}
               </h2>
-              <p>
+              {/* <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                 ultricies lacus non fermentum ultrices. Fusce consectetur le.
-              </p>
+              </p> */}
+
+<div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    01
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
+                  Speed to Market
+                  </h3>
+                  <p>Turn your productized service idea into reality in days, not months.</p>
+                </div>
+              </div>
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    02
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
+                  Increased Earning Potential:
+                  </h3>
+                  <p>Tap into the power of recurring revenue with an unlimited client model.
+</p>
+                </div>
+              </div>
+
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    03
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
+                  Focus on Your Strengths
+                  </h3>
+                  <p>Deliver high-value service, not code.</p>
+                </div>
+              </div>
+
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
+                    04
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
+                  Proven Foundation
+                  </h3>
+                  <p>Build on a reliable, feature-rich boilerplate.</p>
+                </div>
+              </div>
               <div>
                 <a
                   href="#"

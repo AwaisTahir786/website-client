@@ -32,34 +32,41 @@ const Pricing = () => {
           </div>
           <div className="flex flex-wrap justify-center gap-7.5 lg:flex-nowrap xl:gap-12.5">
             {/* <!-- Pricing Item --> */}
-            <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
+            <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%]  xl:p-12.5">
+            <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
+                popular
+              </div>
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                $10{" "}
+              $99{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
                   /month
                 </span>
               </h3>
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                Small Pack
+              Bypass Months of Development, Launch in Days
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              {/* <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p> */}
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                  Professional Landing Page Template
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Photos and Videos
+                  Trello Integration for Client Management
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                  PayPal and Razorpay Payment Setup
+
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
+                  [Add other key features based on your specific offering]
                   </li>
                 </ul>
+                 
+
               </div>
+              <p> Imagine the client revenue you could generate in the time you'd spend building this yourself. The Productize Fast Boilerplate gives you that time back.</p>
 
               <button
                 aria-label="Get the Plan button"
@@ -138,7 +145,7 @@ const Pricing = () => {
             </div>
 
             {/* <!-- Pricing Item --> */}
-            <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
+            {/* <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 $189{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
@@ -186,7 +193,7 @@ const Pricing = () => {
                   />
                 </svg>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
